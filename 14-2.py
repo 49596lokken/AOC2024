@@ -40,7 +40,8 @@ while True:
             for j in range(103):
                 if (j, i) in seen:
                     print("#", end="")
-                print(" ", end="")
+                else:
+                    print(" ", end="")
             print()
         break
 
